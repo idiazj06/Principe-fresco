@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async (e)=>{
         </div>
         <div id="infoProducto">
             <span>${nombrePrenda}<br></span>
-            <span>${precio}<br></span>
+            <span>${precio.toFixed(2)}<br></span>
             <span>${inventario}<br></span>
         </div>
     </div>`

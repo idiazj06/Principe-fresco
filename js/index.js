@@ -53,6 +53,7 @@ const recorrerData = data => {
                 id,
                 nombrePrenda,
                 thumbnailUrl,
+                categoria,
                 precio
             } = ropaInd
 
@@ -61,7 +62,7 @@ const recorrerData = data => {
             templateCard2.querySelector('.card-img-top').setAttribute('src', thumbnailUrl.imagen1)
             templateCard2.querySelector('.card-title').textContent = nombrePrenda
             templateCard2.querySelector('.btn-dark').dataset.id = id
-
+            templateCard2.querySelector('.btn-dark').setAttribute('id',categoria)
             const clone2 = templateCard2.cloneNode(true)
             fragment.appendChild(clone2)
         })        
