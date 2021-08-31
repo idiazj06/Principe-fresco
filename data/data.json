@@ -1,0 +1,64 @@
+{
+    "hombres": [{
+        "id": "1",
+        "nombrePrenda": "prenda1",
+        "thumbnailUrl": {
+            "imagen1": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_1_e90x2h.png",
+            "imagen2": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425741/Rectangle_2_dtlbce.png",
+            "imagen3": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_3_hbnajw.png"
+        },
+        "precio": "precio",
+        "inventario": {
+            "tallaS": 20,
+            "tallaM": 20,
+            "tallaL": 20,
+            "tallaXL": 20
+        }
+    }, {
+        "id": "2",
+        "nombrePrenda": "prenda2",
+        "thumbnailUrl": {
+            "imagen1": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425742/Frame_14_dcquvc.png",
+            "imagen2": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425737/Frame_15_xzptpc.png",
+            "imagen3": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425737/Frame_16_m8jvpa.png"
+        },
+        "precio": "precio",
+        "inventario": {
+            "tallaS": 20,
+            "tallaM": 20,
+            "tallaL": 20,
+            "tallaXL": 20
+        }
+    }],
+    "mujeres": [{
+        "id": "1",
+        "nombrePrenda": "prenda1",
+        "thumbnailUrl": {
+            "imagen1": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425739/Frame_20_rr5cqr.png",
+            "imagen2": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425738/Frame_21_pfs2dv.png",
+            "imagen3": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425738/Frame_22_fma27k.png"
+        },
+        "precio": "precio",
+        "inventario": {
+            "tallaS": 20,
+            "tallaM": 20,
+            "tallaL": 20,
+            "tallaXL": 20
+        }
+    }, {
+        "id": "2",
+        "nombrePrenda": "prenda2",
+        "thumbnailUrl": {
+            "imagen1": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425737/Frame_18_aiaxdt.png",
+            "imagen2": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425737/Frame_17_rrllt9.png",
+            "imagen3": "https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Frame_19_o48uyc.png"
+        },
+        "precio": "precio",
+        "inventario": {
+            "tallaS": 20,
+            "tallaM": 20,
+            "tallaL": 20,
+            "tallaXL": 20
+        }
+    }]
+}
