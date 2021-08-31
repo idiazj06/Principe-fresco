@@ -35,6 +35,7 @@ const recorrerData = data => {
                 id,
                 nombrePrenda,
                 thumbnailUrl,
+                categoria,
                 precio
             } = ropaInd
 
@@ -43,6 +44,7 @@ const recorrerData = data => {
             templateCard.querySelector('.card-img-top').setAttribute('src', thumbnailUrl.imagen1)
             templateCard.querySelector('.card-title').textContent = nombrePrenda
             templateCard.querySelector('.btn-dark').dataset.id = id
+            templateCard.querySelector('.btn-dark').setAttribute('id',categoria)
             const clone = templateCard.cloneNode(true)
             fragment.appendChild(clone)
         })
@@ -59,7 +61,7 @@ const recorrerData = data => {
             templateCard2.querySelector('.card-img-top').setAttribute('src', thumbnailUrl.imagen1)
             templateCard2.querySelector('.card-title').textContent = nombrePrenda
             templateCard2.querySelector('.btn-dark').dataset.id = id
-            
+
             const clone2 = templateCard2.cloneNode(true)
             fragment.appendChild(clone2)
         })        
@@ -78,6 +80,16 @@ const detectarClick = e =>{
     if(e.target.classList.contains('btn-dark')){
         console.log(true)
         console.log(e.target.parentElement.parentElement)
+        console.log(e.target.parentElement.parentElement)
+        // let elementopadreElementoPadre = e.target.parentElement.parentElement
+        let botonData = e.target
+
+        console.log(botonData)
+
+        localStorage.setItem('dataBuscar', JSON.stringify(botonData.dataset.id))
+
+
+        
     }else{
         console.log(false)
     }
