@@ -87,6 +87,7 @@ const detectarClick = e =>{
         console.log(botonData)
 
         localStorage.setItem('dataBuscar', JSON.stringify(botonData.dataset.id))
+        localStorage.setItem('categoria', JSON.stringify(botonData.id))
 
 
         
