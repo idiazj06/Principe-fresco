@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', e => {
 
 const fetchData = async () => {
     try {
-        const res = await fetch('http://localhost:3000/infoRopa')
+        const res = await fetch('http://localhost:4000/infoRopa')
         const data = await res.json()
         console.log(data)
         recorrerData(data)
