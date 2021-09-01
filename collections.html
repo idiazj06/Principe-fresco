@@ -7,89 +7,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/collections.css" />
     <title>Principe Fresco</title>
 </head>
 
-<body>
-    <header id="cabecera">
-        <div class="logo">
-            <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433734/Pr%C3%ADncipe_fresco_artgjq.png"
-                alt="">
-        </div>
-        <ul class="nav nav-pills">
-            <li class="nav-item ">
-                <a class="nav-link  active" aria-current="page" href="#">SHOP</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link  " aria-current="page" href="collections.html">COLLECTIONS</a>
-            </li>
-        </ul>
-        <div class="iconos">
-            <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433733/Vector_2_m7hq6q.png" alt="">
-            <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433733/icons8-user_2_ynpwon.png" alt="">
-        </div>
-    </header>
-
-
-
-
-    <main id="principal">
-        <div id="items">
-            <div id="imagenesPequenas">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+<body id="cuerpo">
+    <div class="" id="sidebarCarrito" >
+        <button id="btn-cierre">X</button>
+        <div class="superiorSidebar">
+            <img class="side-img" src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_1_e90x2h.png" alt="">
+            <div class="central-superiorSidebar">
+                <span>nombre prenda</span>
+                <span>precio</span>
             </div>
-            <div id="imagenesGrandes">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div id="infoProducto">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="derecha-superiorSidebar">
+                <span id="cantCompra">10</span>
+                <button id="btn-remove">remove</button>
             </div>
         </div>
-    </main>
+        <div class="centralSidebar">
+            <div class="sub-total">
+                <span>sub-total</span>
+                <span>precio sub-total</span>
+            </div>
+        </div>
+        <div class="inferiorSidebar">
+            <button id="btn-checkout">CHECKOUT</button>
+        </div>
 
-
-
-
-    <footer>
-        <div><img src="" alt="" /></div>
-        <div id="btn-container">
-            <div class="icon-container">
+    </div>
+    <div id="contenedorTotal">
+        <header id="cabecera">
+            <div class="logo">
                 <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433734/Pr%C3%ADncipe_fresco_artgjq.png"
-                    alt="" />
+                    alt="">
             </div>
-            <div class="icon-container">
-                <img src="" alt="" />
+            <ul class="nav nav-pills">
+                <li class="nav-item ">
+                    <a class="nav-link  active" aria-current="page" href="#">SHOP</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link  " aria-current="page" href="collections.html">COLLECTIONS</a>
+                </li>
+            </ul>
+            <div class="iconos">
+                <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433733/Vector_2_m7hq6q.png" alt="">
+                <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433733/icons8-user_2_ynpwon.png"
+                    alt="">
             </div>
-        </div>
-    </footer>
+        </header>
+        <main id="principal">
+            <div class="container">
+                <div id="imagenesPequenas">
+                    <img class="img-peq" src="" alt="">
+                    <img class="img-peq"
+                        src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425741/Rectangle_2_dtlbce.png"
+                        alt="">
+                    <img class="img-peq"
+                        src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_3_hbnajw.png"
+                        alt="">
 
-
-
-    <template id="template-card">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
-            <div class="card-body text-center">
-                <h5 class="card-title">Card title</h5>
-                <a href="collections.html" class="btn btn-dark">Mas informacion</a>
+                </div>
+                <div id="imagenesGrandes">
+                    <img class="img-grd"
+                        src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_1_e90x2h.png"
+                        alt="">
+                    <img class="img-grd"
+                        src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425741/Rectangle_2_dtlbce.png"
+                        alt="">
+                    <img class="img-grd"
+                        src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630425740/Rectangle_3_hbnajw.png"
+                        alt="">
+                    <img src="" alt="">
+                </div>
+                <div id="infoProducto">
+                    <div class="top">
+                        <span id="nomProd">Nombre producto</span>
+                        <span id="precioProd">precio producto</span>
+                    </div>
+                    <div class="" id="tallas">
+                        <span>size</span>
+                        <div class="botonesTallas">
+                            <button class="tallasDisp">S</button>
+                            <button class="tallasDisp">M</button>
+                            <button class="tallasDisp">L</button>
+                            <button class="tallasDisp">XL</button>
+                        </div>
+                    </div>
+                    <div class="botonesCompra">
+                        <button class="botonesComprar" id="btn-agregar">Agregar</button>
+                        <button class="botonesComprar" id="btn-comprar">Comprar ya</button>
+                    </div>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore natus corrupti, iure
+                        suscipit
+                        debitis eaque et necessitatibus! Illo sunt veniam similique libero, ad voluptatum, nesciunt,
+                        aperiam
+                        eius praesentium autem culpa!
+                    </span><br><br>
+                    <a href="">Click for sizing</a>
+                </div>
             </div>
-        </div>
-    </template>
-    <template id="template-card2">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
-            <div class="card-body text-center">
-                <h5 class="card-title">Card title</h5>
-                <a href="collections.html" class="btn btn-dark">Mas informacion</a>
+        </main>
+        <footer>
+            <div><img src="" alt="" /></div>
+            <div id="btn-container">
+                <div class="icon-container">
+                    <img src="https://res.cloudinary.com/duaokxfsp/image/upload/v1630433734/Pr%C3%ADncipe_fresco_artgjq.png"
+                        alt="" />
+                </div>
+                <div class="icon-container">
+                    <img src="" alt="" />
+                </div>
             </div>
-        </div>
-    </template>
+        </footer>
+        <template id="template-card">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <a href="collections.html" class="btn btn-dark">Mas informacion</a>
+                </div>
+            </div>
+        </template>
+        <template id="template-card2">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <a href="collections.html" class="btn btn-dark">Mas informacion</a>
+                </div>
+            </div>
+        </template>
+    </div>
 
 
 
