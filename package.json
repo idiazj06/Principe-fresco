@@ -1,0 +1,38 @@
+{
+  "name": "principe-fresco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "webpack-dev-server --open",
+    "build" : "webpack --mode development ",
+    "produccion": "webpack --mode production "
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idiazj06/Principe-fresco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idiazj06/Principe-fresco/issues"
+  },
+  "homepage": "https://github.com/idiazj06/Principe-fresco#readme",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.1",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0",
+    "whatwg-fetch": "^3.6.2"
+  }
+}

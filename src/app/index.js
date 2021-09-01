@@ -1,7 +1,10 @@
+import './main.css';
+import {fetch as fetchPolyfill} from 'whatwg-fetch'
 const items = document.getElementById('items');
 const fragment = document.createDocumentFragment()
 const templateCard = document.getElementById('template-card').content;
 const templateCard2 = document.getElementById('template-card2').content;
+
 
 
 

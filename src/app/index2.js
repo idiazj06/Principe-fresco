@@ -1,3 +1,4 @@
+import {fetch as fetchPolyfill} from 'whatwg-fetch'
 const items = document.getElementById('items');
 const fragment = document.createDocumentFragment()
 const dataBuscar = JSON.parse(localStorage.getItem('dataBuscar'))
